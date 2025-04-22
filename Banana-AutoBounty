@@ -1,0 +1,71 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "25fb0d6f4d810a45d1f58f14"
+    getgenv().Setting = {
+        ["Team"] = "Pirate",
+        ["Method Click"] = {["Click Gun"] = false ,["Click Melee"] = true,["Click Sword"] = true,["Click Fruit"] = false, ["LowHealth"] = 3000, ["Delay Click"] = 0.3},
+        ["Race V4"] = {["Enable"] = true},
+        ["Webhook"] = {["Enabled"] = false,["Url Webhook"] = ""},
+        ["Misc"] = {["AutoBuyRandomandStoreFruit"] = true,["AutoBuySurprise"] = true},
+        ["SafeZone"] = {["Enable"] = true,["LowHealth"] = 4500,["MaxHealth"] = 5000,["Teleport Y"] = 5000},
+        ["Method Use Skill"] = {["Use Random"] = true,["Use Number"] = false},
+        ["Use random skill if player target low health"] = { --- suport only method use skill Number
+            ["Enabled"] = true,
+            ["Low Health"] = 4000,
+        },
+        ["Use Portal Teleport"] = true,
+        ["Target Time"] = 50,
+        ["Aim Prediction"] = 1,
+        ["Select Region"] = {["Enabled"] = false,["Region"] = {["Singapore"] = true,["United States"] = true,["Netherlands"] = false,["Germany"] = false,["India"] = false,["Australia"] = false}},
+        ["Ignore Devil Fruit"] = {"Blade-Blade"}, 
+        ["Dodge Skill Player"] = true, --- Beta per 50% can dodge 
+        ["Spam Dash"] = false, ---- risk can banned 1 day
+        ["Weapons"] = {
+            ["Melee"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 7},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 6},
+                },
+            },
+            ["Blox Fruit"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 0.1},
+                    ["X"] = {["Enable"] = false,["HoldTime"] = 0.1,["Number"] = 2},
+                    ["C"] = {["Enable"] = false,["HoldTime"] = 0.1,["Number"] = 0},
+                    ["V"] = {["Enable"] = false,["HoldTime"] = 0.1,["Number"] = 0},
+                    ["F"] = {["Enable"] = false,["HoldTime"] = 0.3,["Number"] = 0},
+                },
+            },
+            ["Gun"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = false,["HoldTime"] = 0.1,["Number"] = 0},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 0},
+                },
+            },
+            ["Sword"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 3},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["Number"] = 5},
+                },
+            },
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-BountyEz.lua"))()
+_G.Ignore = {}
+_G.Settings = {
+    Other = {
+        ["FPS Cap"] = 30, -- true to uncap
+        ["No Camera Effects"] = true,
+        ["No Clothes"] = true,
+        ["Low Water Graphics"] = true,
+        ["No Shadows"] = true,
+        ["Low Rendering"] = true,    
+        ["Low Quality Parts"] = true,
+        ["Low Quality Models"] = true,
+        ["Reset Materials"] = true,
+    }
+}
