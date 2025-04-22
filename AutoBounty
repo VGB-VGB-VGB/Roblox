@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow-hub-v1/refs/heads/main/Ngaygiaiphong.txt"))()
