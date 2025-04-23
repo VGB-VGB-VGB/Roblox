@@ -154,3 +154,5 @@ end
 createNotify("SCRIPT BY VGB-TEAM", 4)
 wait(1.5)
 createNotify("https://discord.gg/f8w9JPNPFS", 5)
+end)
+end
